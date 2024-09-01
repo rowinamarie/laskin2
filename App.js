@@ -30,7 +30,7 @@ export default function App() {
   const miinusPressed = () => {
 
     const difference = parseFloat(number1) - parseFloat(number2);
-    const newHistoria = number1 + ' + ' + number2 + ' = ' + difference;
+    const newHistoria = number1 + ' - ' + number2 + ' = ' + difference;
  
    
     setHistoria(newHistoria); // Update historia first
